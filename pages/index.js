@@ -13,6 +13,7 @@ export default function Home() {
     /* #endregion */
 
     <div className={styles.container}>
+      {/* METADATA */}
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
