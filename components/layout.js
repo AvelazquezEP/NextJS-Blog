@@ -24,6 +24,13 @@ export default function layout({ children, home }) {
                 />
                 <meta name='og:title' content={siteTitle} />
                 <meta name='twitter:card' content='summary_large_image' />
+                <meta name='google' content='nositelinkssearchbox' key="sitelinks" />
+                <meta name='google' content='notranslate' key='notranslate' />
+                <link
+                    rel="canonical"
+                    href="https://example.com/blog/original-post"
+                    key="canonical"
+                />
             </Head>
 
             <header className={styles.header}>
